@@ -10,9 +10,6 @@ require "faker"
 
 u1 = User.create(email:"test@test.com", password: 123456)
 
-10.times do
-  User.create(
-    email:Faker::Internet.unique.email, 
-    password: Faker::Internet.password(min_length: 6),
-  )
-end
+  State.create(
+      name: "California"
+    )
