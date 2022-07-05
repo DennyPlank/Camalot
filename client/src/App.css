@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.dropdown-menu {
+  height: 35vh;
+  overflow-y: scroll;
+}
