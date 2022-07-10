@@ -200,7 +200,11 @@ u1 = User.create(email:"test@test.com", password: 123456)
     )
 
     State.create(
-      name: "Whyoming"
+      name: "Wyoming"
+    )
+
+    State.create(
+      name: "Utah"
     )
 
     puts "50 States Seeded"
